@@ -1,0 +1,543 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Business Mastery With AI – Practical business development and entrepreneurship course by VITC, MCED Authorized Training Centre, Uran.">
+  <title>Business Mastery With AI | VITC – Vandana IT Courses, Uran</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+  <!-- ========== NAVBAR ========== -->
+  <header class="navbar" id="navbar">
+    <div class="container nav-container">
+      <a href="#home" class="logo-link">
+        <img src="logo.jpeg" alt="VITC – Vandana IT Courses" class="logo-img">
+      </a>
+      <nav class="nav-links" id="navLinks">
+        <a href="#home" data-i18n="nav_home">Home</a>
+        <a href="#problem" data-i18n="nav_problem">The Problem</a>
+        <a href="#course" data-i18n="nav_course">The Course</a>
+        <a href="#benefits" data-i18n="nav_benefits">Benefits</a>
+        <a href="#who" data-i18n="nav_who">Who It's For</a>
+        <a href="#faq" data-i18n="nav_faq">FAQ</a>
+        <a href="#enquire" data-i18n="nav_enquire">Enquire</a>
+      </nav>
+      <div class="nav-right">
+        <div class="lang-switcher" role="group" aria-label="Language selector">
+          <button type="button" class="lang-btn active" data-lang="en">English</button>
+          <button type="button" class="lang-btn" data-lang="mr">मराठी</button>
+          <button type="button" class="lang-btn" data-lang="hi">हिन्दी</button>
+        </div>
+        <a href="#enquire" class="btn btn-primary btn-nav" data-i18n="nav_cta">Enquire Now</a>
+        <button class="hamburger" id="hamburger" aria-label="Toggle menu" aria-expanded="false">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <!-- ========== SECTION 1: HERO ========== -->
+    <section class="hero" id="home">
+      <div class="container hero-grid">
+        <div class="hero-content">
+          <div class="hero-badges">
+            <span class="badge" data-i18n="hero_badge1">MCED Authorized Training Centre</span>
+            <span class="badge badge-outline" data-i18n="hero_badge2">VITC – Uran</span>
+          </div>
+          <p class="hero-course-label" data-i18n="hero_course_label">BUSINESS MASTERY WITH AI</p>
+          <h1 data-i18n="hero_headline">Build Business Skills. Learn AI. Become Business-Ready.</h1>
+          <p class="hero-sub" data-i18n="hero_sub">From understanding business fundamentals to using AI, analytics and digital tools — build practical skills for starting, managing and growing a business.</p>
+          <p class="hero-tagline" data-i18n="hero_tagline">Any Age. Any Background. Start Your Journey.</p>
+          <div class="hero-ctas">
+            <a href="#enquire" class="btn btn-primary btn-lg" data-i18n="hero_cta1">Enquire About the Course</a>
+            <a href="#course" class="btn btn-outline btn-lg" data-i18n="hero_cta2">Explore the Course</a>
+          </div>
+        </div>
+        <div class="hero-visual" aria-hidden="true">
+          <div class="growth-card">
+            <div class="growth-bars">
+              <div class="bar" style="--h:40%"></div>
+              <div class="bar" style="--h:55%"></div>
+              <div class="bar" style="--h:70%"></div>
+              <div class="bar" style="--h:85%"></div>
+              <div class="bar bar-accent" style="--h:100%"></div>
+            </div>
+            <div class="growth-label" data-i18n="hero_visual_label">Business Growth</div>
+          </div>
+          <div class="float-shape shape-1"></div>
+          <div class="float-shape shape-2"></div>
+          <div class="float-shape shape-3"></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========== SECTION 2: PROBLEM + LOSS ========== -->
+    <section class="section problem-section" id="problem">
+      <div class="container">
+        <div class="section-header center">
+          <h2 data-i18n="problem_headline">Knowing Your Field Is Not Enough to Build a Business.</h2>
+          <p class="lead" data-i18n="problem_lead">You may have the idea. You may have the ambition. But without the right business skills, turning that idea into a sustainable business can become difficult.</p>
+        </div>
+        <div class="problem-grid">
+          <div class="problem-card" data-animate>
+            <div class="problem-icon">💡</div>
+            <h3 data-i18n="prob1_title">Ideas Without Structure</h3>
+            <p data-i18n="prob1_text">Many have ideas but lack structured business knowledge to move forward.</p>
+            <div class="arrow-down">↓</div>
+            <p class="solution-link" data-i18n="prob1_sol">→ Better practical business skills</p>
+          </div>
+          <div class="problem-card" data-animate>
+            <div class="problem-icon">📊</div>
+            <h3 data-i18n="prob2_title">Sales & Marketing Gaps</h3>
+            <p data-i18n="prob2_text">Difficulty understanding how to attract customers and build marketing strategies.</p>
+            <div class="arrow-down">↓</div>
+            <p class="solution-link" data-i18n="prob2_sol">→ Sales & marketing strategy</p>
+          </div>
+          <div class="problem-card" data-animate>
+            <div class="problem-icon">💰</div>
+            <h3 data-i18n="prob3_title">Unclear Finances</h3>
+            <p data-i18n="prob3_text">Limited understanding of budgeting, cost control and financial decisions.</p>
+            <div class="arrow-down">↓</div>
+            <p class="solution-link" data-i18n="prob3_sol">→ Budgeting + Business Analytics</p>
+          </div>
+          <div class="problem-card" data-animate>
+            <div class="problem-icon">📄</div>
+            <h3 data-i18n="prob4_title">Weak Documentation</h3>
+            <p data-i18n="prob4_text">Difficulty preparing professional business documents and proposals.</p>
+            <div class="arrow-down">↓</div>
+            <p class="solution-link" data-i18n="prob4_sol">→ Business documentation skills</p>
+          </div>
+          <div class="problem-card" data-animate>
+            <div class="problem-icon">⚖️</div>
+            <h3 data-i18n="prob5_title">Laws & Schemes Uncertainty</h3>
+            <p data-i18n="prob5_text">Uncertainty about business laws, licences and government schemes.</p>
+            <div class="arrow-down">↓</div>
+            <p class="solution-link" data-i18n="prob5_sol">→ Awareness of schemes & regulations</p>
+          </div>
+          <div class="problem-card" data-animate>
+            <div class="problem-icon">🤖</div>
+            <h3 data-i18n="prob6_title">Digital & AI Tools Gap</h3>
+            <p data-i18n="prob6_text">Difficulty using modern digital and AI tools effectively in business work.</p>
+            <div class="arrow-down">↓</div>
+            <p class="solution-link" data-i18n="prob6_sol">→ AI-assisted workflows</p>
+          </div>
+        </div>
+        <div class="consequences-box" data-animate>
+          <h3 data-i18n="consequences_title">What This Can Lead To</h3>
+          <ul class="consequences-list">
+            <li data-i18n="cons1">Poor decisions</li>
+            <li data-i18n="cons2">Missed opportunities</li>
+            <li data-i18n="cons3">Unplanned costs</li>
+            <li data-i18n="cons4">Weak marketing</li>
+            <li data-i18n="cons5">Poor business documentation</li>
+            <li data-i18n="cons6">Difficulty scaling</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========== SECTION 3: FUTURE LOSS ========== -->
+    <section class="section future-section" id="future">
+      <div class="container">
+        <div class="section-header center">
+          <h2 data-i18n="future_headline">What Happens If You Keep Going Without These Skills?</h2>
+        </div>
+        <div class="timeline" data-animate>
+          <div class="timeline-item">
+            <div class="timeline-dot"></div>
+            <div class="timeline-content">
+              <span class="timeline-label" data-i18n="timeline_today">TODAY</span>
+              <p data-i18n="timeline_1">Unclear decisions</p>
+            </div>
+          </div>
+          <div class="timeline-item">
+            <div class="timeline-dot"></div>
+            <div class="timeline-content">
+              <p data-i18n="timeline_2">Missed opportunities</p>
+            </div>
+          </div>
+          <div class="timeline-item">
+            <div class="timeline-dot"></div>
+            <div class="timeline-content">
+              <p data-i18n="timeline_3">Unplanned expenses</p>
+            </div>
+          </div>
+          <div class="timeline-item">
+            <div class="timeline-dot"></div>
+            <div class="timeline-content">
+              <p data-i18n="timeline_4">Weak business processes</p>
+            </div>
+          </div>
+          <div class="timeline-item">
+            <div class="timeline-dot"></div>
+            <div class="timeline-content">
+              <p data-i18n="timeline_5">Difficulty growing</p>
+            </div>
+          </div>
+        </div>
+        <div class="future-message" data-animate>
+          <p class="highlight-text" data-i18n="future_comp">Your competition is learning, adapting and using better tools.</p>
+          <p data-i18n="future_need">Business is changing. People increasingly need digital skills, data understanding, AI-assisted productivity, marketing knowledge, financial awareness and business documentation skills.</p>
+          <p class="good-news" data-i18n="future_good">The good news? These are skills you can learn.</p>
+        </div>
+        <div class="transition-banner" data-animate>
+          <p data-i18n="transition_text">THIS IS WHERE BUSINESS MASTERY WITH AI COMES IN.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========== SECTION 4: SOLUTION ========== -->
+    <section class="section solution-section" id="solution">
+      <div class="container">
+        <div class="section-header center">
+          <h2 data-i18n="solution_headline">Turn Your Business Knowledge Gap Into Practical Skills.</h2>
+          <p class="course-name-big" data-i18n="solution_course">Business Mastery With AI</p>
+          <p class="lead" data-i18n="solution_desc">This practical course brings together business fundamentals, sales and marketing, analytics, budgeting, documentation and AI-assisted digital skills — giving learners a more complete foundation for business start-up, management and growth.</p>
+        </div>
+        <div class="transform-path" data-animate>
+          <div class="transform-step">
+            <div class="step-circle">1</div>
+            <span data-i18n="trans1">PROBLEM</span>
+          </div>
+          <div class="transform-arrow">→</div>
+          <div class="transform-step">
+            <div class="step-circle">2</div>
+            <span data-i18n="trans2">LEARNING</span>
+          </div>
+          <div class="transform-arrow">→</div>
+          <div class="transform-step">
+            <div class="step-circle">3</div>
+            <span data-i18n="trans3">PRACTICAL SKILLS</span>
+          </div>
+          <div class="transform-arrow">→</div>
+          <div class="transform-step">
+            <div class="step-circle">4</div>
+            <span data-i18n="trans4">CONFIDENCE</span>
+          </div>
+          <div class="transform-arrow">→</div>
+          <div class="transform-step">
+            <div class="step-circle accent">5</div>
+            <span data-i18n="trans5">BUSINESS READINESS</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========== SECTION 5: WHAT YOU WILL LEARN ========== -->
+    <section class="section curriculum-section" id="course">
+      <div class="container">
+        <div class="section-header center">
+          <h2 data-i18n="learn_headline">What Will You Learn?</h2>
+        </div>
+        <div class="curriculum-grid">
+          <article class="curriculum-card" data-animate>
+            <div class="card-num">01</div>
+            <h3 data-i18n="topic1_title">Business Core Skills</h3>
+            <p data-i18n="topic1_desc">Understand the foundations required to operate and manage a business.</p>
+          </article>
+          <article class="curriculum-card" data-animate>
+            <div class="card-num">02</div>
+            <h3 data-i18n="topic2_title">Sales & Marketing Strategy</h3>
+            <p data-i18n="topic2_desc">Learn the fundamentals of attracting customers and building effective marketing strategies.</p>
+          </article>
+          <article class="curriculum-card" data-animate>
+            <div class="card-num">03</div>
+            <h3 data-i18n="topic3_title">Web Development Basics with AI</h3>
+            <p data-i18n="topic3_desc">Understand the basics of web development and how AI can assist digital work.</p>
+          </article>
+          <article class="curriculum-card" data-animate>
+            <div class="card-num">04</div>
+            <h3 data-i18n="topic4_title">Advanced Excel & Business Analytics</h3>
+            <p data-i18n="topic4_desc">Use spreadsheets and business analytics to understand information and support better decisions.</p>
+          </article>
+          <article class="curriculum-card" data-animate>
+            <div class="card-num">05</div>
+            <h3 data-i18n="topic5_title">Budgeting & Cost Control</h3>
+            <p data-i18n="topic5_desc">Understand financial planning, budgeting and controlling business costs.</p>
+          </article>
+          <article class="curriculum-card" data-animate>
+            <div class="card-num">06</div>
+            <h3 data-i18n="topic6_title">Business Documentation</h3>
+            <p data-i18n="topic6_desc">Learn the importance of structured and professional business documentation.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========== SECTION 6: ADVANTAGES ========== -->
+    <section class="section benefits-section" id="benefits">
+      <div class="container">
+        <div class="section-header center">
+          <h2 data-i18n="benefits_headline">More Than a Course. Build a Practical Business Foundation.</h2>
+        </div>
+        <ul class="benefits-list">
+          <li data-animate data-i18n="ben1">Understand Government Schemes & Subsidy Opportunities</li>
+          <li data-animate data-i18n="ben2">Business Laws, Licences & Regulations Awareness</li>
+          <li data-animate data-i18n="ben3">Build Your Entrepreneurial Profile with MCED Certification</li>
+          <li data-animate data-i18n="ben4">Business Proposal & Project Development</li>
+          <li data-animate data-i18n="ben5">Practical Learning for Business Start-up, Management & Growth</li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- ========== SECTION 7: WHO IS THIS FOR ========== -->
+    <section class="section who-section" id="who">
+      <div class="container">
+        <div class="section-header center">
+          <h2 data-i18n="who_headline">Any Age. Any Background. Start Your Journey.</h2>
+        </div>
+        <div class="who-grid">
+          <div class="who-card" data-animate>
+            <h3 data-i18n="who1_title">STUDENTS</h3>
+            <p data-i18n="who1_desc">Build practical business and digital skills alongside your education.</p>
+          </div>
+          <div class="who-card" data-animate>
+            <h3 data-i18n="who2_title">ASPIRING ENTREPRENEURS</h3>
+            <p data-i18n="who2_desc">Turn your business idea into a more structured plan.</p>
+          </div>
+          <div class="who-card" data-animate>
+            <h3 data-i18n="who3_title">EXISTING BUSINESS OWNERS</h3>
+            <p data-i18n="who3_desc">Strengthen your understanding of marketing, analytics, budgeting and business processes.</p>
+          </div>
+          <div class="who-card" data-animate>
+            <h3 data-i18n="who4_title">WORKING PROFESSIONALS</h3>
+            <p data-i18n="who4_desc">Develop business skills that complement your existing experience.</p>
+          </div>
+          <div class="who-card" data-animate>
+            <h3 data-i18n="who5_title">CAREER / BUSINESS EXPLORERS</h3>
+            <p data-i18n="who5_desc">Explore practical business knowledge regardless of your educational background.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========== SECTION 8: WHY THIS COURSE ========== -->
+    <section class="section compare-section" id="compare">
+      <div class="container">
+        <div class="section-header center">
+          <h2 data-i18n="compare_headline">Why This Course?</h2>
+        </div>
+        <div class="compare-grid">
+          <div class="compare-col without" data-animate>
+            <h3 data-i18n="without_title">Without This Skill Set</h3>
+            <ul>
+              <li data-i18n="without1">Unstructured business decisions</li>
+              <li data-i18n="without2">Limited understanding of marketing</li>
+              <li data-i18n="without3">Difficulty with financial planning</li>
+              <li data-i18n="without4">Limited digital knowledge</li>
+              <li data-i18n="without5">Confusion around documentation</li>
+            </ul>
+          </div>
+          <div class="compare-col with" data-animate>
+            <h3 data-i18n="with_title">With Business Mastery With AI</h3>
+            <ul>
+              <li data-i18n="with1">Business fundamentals</li>
+              <li data-i18n="with2">Sales & marketing strategy</li>
+              <li data-i18n="with3">Business analytics</li>
+              <li data-i18n="with4">Budgeting & cost control</li>
+              <li data-i18n="with5">Business documentation</li>
+              <li data-i18n="with6">AI-assisted digital skills</li>
+            </ul>
+            <a href="#enquire" class="btn btn-primary" data-i18n="compare_cta">Enquire Now</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========== SECTION 9: TRUST ========== -->
+    <section class="section trust-section" id="trust">
+      <div class="container">
+        <div class="trust-grid">
+          <div class="trust-item" data-animate>
+            <img src="logo.jpeg" alt="VITC Logo" class="trust-logo">
+            <h3>VITC</h3>
+            <p data-i18n="trust_vitc">Vandana IT Courses</p>
+          </div>
+          <div class="trust-item" data-animate>
+            <div class="trust-icon">🏛️</div>
+            <h3>MCED</h3>
+            <p data-i18n="trust_mced">Maharashtra Centre for Entrepreneurship Development</p>
+            <p class="trust-badge" data-i18n="trust_auth">MCED Authorized Training Centre</p>
+          </div>
+          <div class="trust-item" data-animate>
+            <div class="trust-icon">🎓</div>
+            <h3 data-i18n="trust_faculty_title">Faculty</h3>
+            <p data-i18n="trust_faculty">MCA & MBA Faculty | 9+ Years Experience</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========== SECTION 10: COURSE OFFER ========== -->
+    <section class="section offer-section" id="offer">
+      <div class="container">
+        <div class="offer-card" data-animate>
+          <h2 data-i18n="offer_headline">Start Building Your Business Skills.</h2>
+          <p class="offer-course" data-i18n="offer_course">Business Mastery With AI</p>
+          <div class="price-block">
+            <span class="price-original">₹25,500/-</span>
+            <span class="price-special">₹11,800/-</span>
+          </div>
+          <p class="offer-label" data-i18n="offer_special">Special Offer</p>
+          <p class="seats" data-i18n="offer_seats">Limited Seats Available</p>
+          <a href="#enquire" class="btn btn-primary btn-lg" data-i18n="offer_cta">Enquire Now</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========== SECTION 11: ENQUIRY FORM ========== -->
+    <section class="section enquire-section" id="enquire">
+      <div class="container">
+        <div class="enquire-grid">
+          <div class="enquire-info">
+            <h2 data-i18n="form_headline">Ready to Start Your Business Journey?</h2>
+            <p data-i18n="form_sub">Tell us a little about yourself and our team can help you understand the course.</p>
+            <div class="contact-actions">
+              <a href="tel:9967874887" class="btn btn-outline contact-btn">
+                <span data-i18n="form_call">Call Us</span> — 9967874887
+              </a>
+              <a href="https://wa.me/919967874887" target="_blank" rel="noopener" class="btn btn-whatsapp contact-btn" data-i18n="form_whatsapp">Enquire on WhatsApp</a>
+            </div>
+            <p class="location-text">
+              <strong data-i18n="form_location_label">Location:</strong><br>
+              VITC, Shree Raj Nagar, Kamtha Road, Uran
+            </p>
+          </div>
+          <div class="enquire-form-wrap">
+            <form id="enquiryForm" novalidate>
+              <div class="form-group">
+                <label for="fullName" data-i18n="label_name">Full Name *</label>
+                <input type="text" id="fullName" name="fullName" required autocomplete="name">
+                <span class="error-msg" id="errName"></span>
+              </div>
+              <div class="form-group">
+                <label for="mobile" data-i18n="label_mobile">Mobile Number *</label>
+                <input type="tel" id="mobile" name="mobile" required autocomplete="tel" maxlength="10" placeholder="10-digit mobile">
+                <span class="error-msg" id="errMobile"></span>
+              </div>
+              <div class="form-group">
+                <label for="email" data-i18n="label_email">Email Address *</label>
+                <input type="email" id="email" name="email" required autocomplete="email">
+                <span class="error-msg" id="errEmail"></span>
+              </div>
+              <div class="form-group">
+                <label for="background" data-i18n="label_background">Current Background *</label>
+                <select id="background" name="background" required>
+                  <option value="" data-i18n="opt_select">Select...</option>
+                  <option value="student" data-i18n="opt_student">Student</option>
+                  <option value="professional" data-i18n="opt_professional">Working Professional</option>
+                  <option value="owner" data-i18n="opt_owner">Business Owner</option>
+                  <option value="entrepreneur" data-i18n="opt_entrepreneur">Entrepreneur</option>
+                  <option value="other" data-i18n="opt_other">Other</option>
+                </select>
+                <span class="error-msg" id="errBackground"></span>
+              </div>
+              <div class="form-group">
+                <label for="prefLang" data-i18n="label_preflang">Preferred Language *</label>
+                <select id="prefLang" name="prefLang" required>
+                  <option value="" data-i18n="opt_select">Select...</option>
+                  <option value="english">English</option>
+                  <option value="marathi">मराठी</option>
+                  <option value="hindi">हिन्दी</option>
+                </select>
+                <span class="error-msg" id="errPrefLang"></span>
+              </div>
+              <div class="form-group">
+                <label for="message" data-i18n="label_message">Message / What do you want to learn?</label>
+                <textarea id="message" name="message" rows="3"></textarea>
+              </div>
+              <button type="submit" class="btn btn-primary btn-lg btn-block" data-i18n="form_submit">Submit Enquiry</button>
+              <div id="formSuccess" class="form-success" hidden data-i18n="form_success">Thank you! Your enquiry has been recorded. Our team will contact you soon.</div>
+              <div id="formNote" class="form-note" hidden data-i18n="form_note">Note: Form data is validated on this page. Connect a backend endpoint in script.js to send data.</div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========== SECTION 12: FAQ ========== -->
+    <section class="section faq-section" id="faq">
+      <div class="container">
+        <div class="section-header center">
+          <h2 data-i18n="faq_headline">Frequently Asked Questions</h2>
+        </div>
+        <div class="faq-list">
+          <details class="faq-item" data-animate>
+            <summary data-i18n="faq1_q">Who can join the Business Mastery With AI course?</summary>
+            <p data-i18n="faq1_a">Students, aspiring entrepreneurs, existing business owners, working professionals and anyone who wants to understand business — from any educational background. Any age. Any background.</p>
+          </details>
+          <details class="faq-item" data-animate>
+            <summary data-i18n="faq2_q">Do I need a specific educational background?</summary>
+            <p data-i18n="faq2_a">No. The course is designed for people from different educational backgrounds. No specific prior qualification is required.</p>
+          </details>
+          <details class="faq-item" data-animate>
+            <summary data-i18n="faq3_q">Is this course useful for entrepreneurs?</summary>
+            <p data-i18n="faq3_a">Yes. It is a practical course for business start-up, management and growth, covering business fundamentals, sales and marketing, analytics, budgeting, documentation and AI-assisted digital skills.</p>
+          </details>
+          <details class="faq-item" data-animate>
+            <summary data-i18n="faq4_q">What topics are covered?</summary>
+            <p data-i18n="faq4_a">Business Core Skills, Sales & Marketing Strategy, Web Development Basics with AI, Advanced Excel & Business Analytics, Budgeting & Cost Control, and Business Documentation. You also gain awareness of government schemes, business laws and licences, and build your entrepreneurial profile with MCED Certification.</p>
+          </details>
+          <details class="faq-item" data-animate>
+            <summary data-i18n="faq5_q">Does the course include AI-related learning?</summary>
+            <p data-i18n="faq5_a">Yes. The course includes Web Development Basics with AI and AI-assisted digital skills as part of practical business learning.</p>
+          </details>
+          <details class="faq-item" data-animate>
+            <summary data-i18n="faq6_q">What is the course fee?</summary>
+            <p data-i18n="faq6_a">Special Offer: ₹11,800/- (original mentioned fee: ₹25,500/-). Limited seats available.</p>
+          </details>
+          <details class="faq-item" data-animate>
+            <summary data-i18n="faq7_q">Where is VITC located?</summary>
+            <p data-i18n="faq7_a">VITC, Shree Raj Nagar, Kamtha Road, Uran.</p>
+          </details>
+          <details class="faq-item" data-animate>
+            <summary data-i18n="faq8_q">How can I enquire about the course?</summary>
+            <p data-i18n="faq8_a">Fill the enquiry form on this page, call 9967874887, or message on WhatsApp. Our team can help you understand the course.</p>
+          </details>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========== FINAL CTA ========== -->
+    <section class="section final-cta-section">
+      <div class="container center">
+        <h2 data-i18n="final_headline">Your Business Journey Can Start With One Decision.</h2>
+        <p class="lead" data-i18n="final_sub">Learn business fundamentals, digital skills, analytics and AI-assisted tools through Business Mastery With AI.</p>
+        <div class="final-ctas">
+          <a href="#enquire" class="btn btn-primary btn-lg" data-i18n="final_cta1">Enquire Now</a>
+          <a href="tel:9967874887" class="btn btn-outline btn-lg">Call 9967874887</a>
+        </div>
+        <p class="final-location">VITC, Shree Raj Nagar, Kamtha Road, Uran</p>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-inner">
+      <div class="footer-brand">
+        <img src="logo.jpeg" alt="VITC" class="footer-logo">
+        <p>VITC – Vandana IT Courses</p>
+        <p data-i18n="footer_mced">MCED Authorized Training Centre</p>
+      </div>
+      <div class="footer-contact">
+        <p>VITC, Shree Raj Nagar, Kamtha Road, Uran</p>
+        <p><a href="tel:9967874887">9967874887</a></p>
+      </div>
+      <p class="footer-copy">&copy; <span id="year"></span> VITC – Vandana IT Courses. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <!-- Sticky mobile CTA -->
+  <div class="sticky-cta" id="stickyCta">
+    <a href="#enquire" class="btn btn-primary" data-i18n="sticky_cta">Enquire Now</a>
+    <a href="tel:9967874887" class="btn btn-outline-light">9967874887</a>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
